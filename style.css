@@ -331,7 +331,28 @@ body {
   }
 
 
-
+  body  {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .faq-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .answer {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  .active {
+    display: block;
+  }
+  
 
   
   
